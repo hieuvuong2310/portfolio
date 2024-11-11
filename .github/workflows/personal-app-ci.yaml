@@ -3,12 +3,12 @@ on:
   pull_request:
     types: [assigned, synchronize]
     paths:
-      - "./personal-portfolio/src/app/**"
+      - "personal-portfolio/src/app/**"
 
 defaults:
   run:
     shell: bash
-    working-directory: "./personal-portfolio/src/app/"
+    working-directory: "/personal-portfolio/src/app/"
   
 jobs:
   build:
