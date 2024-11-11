@@ -1,6 +1,7 @@
 name: Personal App CI
 on:
   pull_request:
+    types: [assigned, synchronize]
     paths:
       - "./personal-portfolio/src/app/**"
 
