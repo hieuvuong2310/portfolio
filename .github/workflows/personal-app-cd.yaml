@@ -13,10 +13,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Vercel CLI
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
         run: npm install
+        working-directory: ./personal-portfolio
+
+      - name: Build the project
+        run: npm run build
+        working-directory: ./personal-portfolio
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
 
       - name: Deploy to Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        run: vercel --prod
+        run: vercel --prod --confirm
+        working-directory: ./personal-portfolio
