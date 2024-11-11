@@ -2,12 +2,12 @@ name: Personal App CI
 on:
   pull_request:
     paths:
-      - "src/app/**"
+      - "./personal-portfolio/src/app/**"
 
 defaults:
   run:
     shell: bash
-    working-directory: ./"src/app/"
+    working-directory: "./personal-portfolio/src/app/"
   
 jobs:
   build:
