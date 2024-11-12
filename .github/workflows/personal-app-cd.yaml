@@ -1,8 +1,6 @@
 name: Deploy to Vercel
 
 on:
-  pull_request:
-    types: [assigned, synchronize]
   push:
     branches:
       - main
