@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ResumeButton from '../components/ResumeButton';
 import Character from '../img/main.png';
 import Image from 'next/image';
