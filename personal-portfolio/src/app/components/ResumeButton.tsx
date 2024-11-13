@@ -1,8 +1,21 @@
+import Download from "../img/download.png"
+import Image from "next/image";
 function ResumeButton() {
   return (
-    <button>
-        Resume
+    <button className="w-[20%] h-[4%] bg-accent rounded-[20px]">
+        <div className="flex flex-col items-center justify-center">
+            <div className="flex pl-10 pr-10">
+                <div className="pr-2">
+                    <Image src={Download} width={24} height={24} alt="download"/>
+                </div>
+                <div>
+                    Resume
+                </div>
+                
+            </div>
+        </div>
     </button>
+    
   );
 }
 

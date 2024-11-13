@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#2E51DE",
+        accent: "#F9D838"
       },
       fontFamily: {
         primary: ['JandaManateeSolid', 'sans-serif'],
