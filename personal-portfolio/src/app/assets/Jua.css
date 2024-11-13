@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Jua-Regular.ttf') format('ttf'),
+        local('Jua'),;
+}

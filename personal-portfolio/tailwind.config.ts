@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        primary: ['JandaManateeSolid', 'sans-serif'],
+        accent: ['Jua', 'sans-serif'],
+      },
     },
   },
   plugins: [],

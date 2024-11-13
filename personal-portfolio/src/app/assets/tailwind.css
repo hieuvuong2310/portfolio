@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply p-4;
+}
+
+html {
+    font-family: "JandaManateeSolid", "Jua", sans-serif;
+}
