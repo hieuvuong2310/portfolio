@@ -2,6 +2,6 @@
     font-family: 'JandaManateeSolid';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/JandaManateeSolid.ttf') format('ttf'),
+    src: url('../fonts/JandaManateeSolid.ttf') format('truetype'),
         local('JandaManateeSolid'),;
 }
