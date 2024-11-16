@@ -1,5 +1,6 @@
 import HomePage from "./pages/HomePage";
 import NavBar from "./components/NavBar";
+import Overview from "./pages/Overview";
 export default function Home() {
   return (
     <div className="flex flex-col h-screen">
@@ -8,6 +9,7 @@ export default function Home() {
       </div>
       <div className="flex-grow mt-[5px]">
         <HomePage />
+        <Overview />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 name: Personal App CI
 on:
   pull_request:
-    types: [assigned, synchronize]
+    types: [unassigned, assigned, synchronize]
     paths:
       - "personal-portfolio/src/app/**"
 
@@ -19,6 +19,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
+      - name: Install dependencies
+        run: npm install
       - name: Build project
         run: npm run build
         
