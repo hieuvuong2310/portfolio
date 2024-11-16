@@ -1,6 +1,6 @@
 import Overview from "../../../resources/overview.json";
 
-const getOverview = (): any => {
+const getOverview = () => {
     return Overview;
 };
 

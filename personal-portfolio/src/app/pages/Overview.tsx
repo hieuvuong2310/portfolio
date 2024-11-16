@@ -1,6 +1,6 @@
 "use client";
 import getOverview from "../server/src/helper/getOverview";
-import React, {useState} from 'react';
+import React from 'react';
 
 type OverviewProps = {
     line1: string;
@@ -11,8 +11,8 @@ type OverviewProps = {
 };
 
 function Overview() {
-    let overviewContent = getOverview();
-    var overviewState: OverviewProps = {
+    const overviewContent = getOverview();
+    const overviewState: OverviewProps = {
         line1: overviewContent?.line1 || "Line 1 not available",
         line2: overviewContent?.line2 || "Line 2 not available",
         line3: overviewContent?.line3 || "Line 3 not available",
