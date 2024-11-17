@@ -1,7 +1,13 @@
 import React from "react";
 import ProjectsLinkButton from "./ProjectsLinkButton";
-
-function ProjectBlock({projectName, image, projectLink, description, techstacks}) {
+interface ProjectBlockProps {
+    projectName: string;
+    image: string;
+    projectLink: string;
+    description: string;
+    techstacks: string[];
+}
+function ProjectBlock({projectName, image, projectLink, description, techstacks}: ProjectBlockProps) {
     return (
         <div className="pt-10">
             <div className="flex items-center space-x-10">
