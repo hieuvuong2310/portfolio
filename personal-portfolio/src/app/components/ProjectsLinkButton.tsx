@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Github from "../img/github.png";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 interface ProjectsLinkButtonProps {
     name: string;
     link: string;
