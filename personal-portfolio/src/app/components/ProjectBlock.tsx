@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectsLinkButton from "./ProjectsLinkButton";
-import Github from "../img/github.png";
 
 function ProjectBlock({projectName, image, projectLink, description, techstacks}) {
     return (
