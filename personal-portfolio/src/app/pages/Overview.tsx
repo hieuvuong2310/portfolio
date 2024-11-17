@@ -44,10 +44,9 @@ function Overview() {
                     
                 </div>
                 <div className="flex-2">
-                    {/* <img src={overviewState.profile} width={150} height={150} alt="profile"></img> */}
                     <img
-                    src={Profile} // Use this sample image or upload your own via the Media Explorer
-                    width="400" // Transform the image: auto-crop to square aspect_ratio
+                    src={Profile} 
+                    width="400"
                     height="400"
                     alt="Profile image"
                     />
