@@ -17,8 +17,8 @@ function Professionals() {
         <div className="text-[100px] font-primary text-primary text-stroke-3 text-stroke-black">Professionals</div>
         <div className="relative py-10">
             <div className="grid grid-cols-9 gap-y-10">
-                <div className="col-span-4 col-start-1 text-center text-[45px]">Professional Career</div>
-                <div className="col-span-4 col-start-6 text-center text-[45px]">Extra Curricular</div>
+                <div className="col-span-4 col-start-1 text-center text-[45px] bg-accent">Professional Career</div>
+                <div className="col-span-4 col-start-6 text-center text-[45px] bg-job">Extra Curricular</div>
                 {timelineData.map((item, index) => (
                     <div
                     key={index}
@@ -34,7 +34,7 @@ function Professionals() {
                         <div className="flex flex-col items-center text-center mt-4">
                             <h3 className="text-lg font-bold font-accent">{item.time}</h3>
                             <h3 className={`text-lg ${isEven(index)} p-2`}>{item.company}</h3>
-                            <p className="text-sm">{item.position}</p>
+                            <p className="text-l">{item.position}</p>
                         </div>
                         <div
                             className={`absolute top-1/2 transform -translate-y-1/2 w-1 h-full ${isEven(index)} ${
