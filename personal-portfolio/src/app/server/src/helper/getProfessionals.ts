@@ -11,7 +11,7 @@ interface ProfessionalsProps {
 const getProfessionals = () => {
     const professionals: ProfessionalsProps[] = [];
     for (let i = 0; i < professionalsData.length; i++) {
-        let professional: ProfessionalsProps = {
+        const professional: ProfessionalsProps = {
             icon: professionalsData[i]?.icon,
             time: professionalsData[i]?.time,
             company: professionalsData[i]?.company,
