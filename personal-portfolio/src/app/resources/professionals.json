@@ -1,0 +1,66 @@
+[
+  {
+    "icon": "💼",
+    "time": "Jan 2024 - Present",
+    "company": "SAP",
+    "position": "DevOps Engineer Intern",
+    "description": "Troubleshot, refactored, and maintained Jenkins pipelines using Groovy, Java, and Shell scripts, improving CI runtime and stability by 30 minutes and reducing flaky tests by 30%, accelerating the merge process and reducing developer downtime.\nIntroduced a new CI check with GitHub Actions, running 200 implemented Python unit tests, lint checking, and ensuring code quality and stability, preventing potential issues from reaching production.\nMonitored deployments, released the latest fixes to 60 groups of customers, and maintained automated sanity tests in TypeScript for weekly releases to ensure smoother releases and increase customer satisfaction.\nInitiated a proof of concept for Jelly integration with Jenkins to build a customized user interface, adding a feedback form on Jenkins to collect input from 1500+ engineers on build pipeline quality and save to SAP Hana Cloud.",
+    "color": "bg-accent"
+  },
+  {
+    "icon": "🧑‍🎓",
+    "time": "Nov 2024",
+    "company": "Hackcamp",
+    "position": "Hackathon Participant",
+    "description": "Developed an arcade game aimed at encouraging students to take active breaks and stay physically engaged. The game tracks the player's head movements to control a character, helping them dodge obstacles for a productive break.\nUtilized Aesprite and Illustrator for art design, PostgreSQL for the backend, Next.js for the frontend, and Figma for UI/UX design.",
+    "color": "bg-job"
+  },
+  {
+    "icon": "💼",
+    "time": "Sep 2023 - Dec 2023",
+    "company": "Government of British Columbia",
+    "position": "Fullstack Developer Intern",
+    "description": "Designed and translated Figma UI prototype into a Vue.js web application hosted on the BC Government website.\nUtilized Zenhub GraphQL API to manage up to 50 GitHub repositories, providing updates and release notes for government products to citizens.\nImplemented Agile methodologies by setting up a Scrum board, conducting over 6 iterations of two-week sprints, and configuring GitHub Actions for a CI/CD pipeline to automate tests, deployment on Google Cloud, and lint checking.",
+    "color": "bg-accent"
+  },
+  {
+    "icon": "🧑‍🎓",
+    "time": "Aug 2023 - May2024",
+    "company": "Google Developer Student Club",
+    "position": "President + Founder",
+    "description": "Founded the University of Victoria’s first Google Developer Student Club (GDSC) chapter, establishing it as Google’s 500th global community.\nOrganized successful workshops and a hackathon focused on technology for people with disabilities, attracting participation from over 40 student teams across the campus.",
+    "color": "bg-job"
+  },
+  {
+    "icon": "💼",
+    "time": "May 2022 - Dec 2022",
+    "company": "Atimi Software",
+    "position": "Software Engineer Intern",
+    "description": "Translated over 400 user actions into end-to-end (E2E) tests using Java, Appium, and Selenium, increasing early risk detection by 50% and ensuring app performance and stability for over 1000 user testing accounts.\nAutomated test runs, saving 45 hours of engineering time per week previously spent on manual testing.\nUsed regular expressions (Regex) to validate data formats on web and mobile interfaces during test runs.",
+    "color": "bg-accent"
+  },
+  {
+    "icon": "🧑‍🎓",
+    "time": "March 2023",
+    "company": "Treasure Hack",
+    "position": "Hackathon Participant",
+    "description": "Worked in a team of 4 to develop a website that allows users to upload documents and receive summaries or engage in 1-on-1 chats with an AI. Implemented the AI feature using HTML, CSS, JavaScript, and integrated with the OpenAI API.",
+    "color": "bg-job"
+  },
+  {
+    "icon": "💼",
+    "time": "Jan 2022 - Sep 2023",
+    "company": "University of Victoria - VIXI Lab",
+    "position": "Software Engineer",
+    "description": "Designed a web application using HTML, CSS, JavaScript, and Firebase to control an Arduino via WiFi, enabling physical data visualization for research on team accountability and progress tracking.\nAnalyzed the impact of physical data visualization on teamwork productivity and how it can help structure and maintain team progress.",
+    "color": "bg-job"
+  },
+  {
+    "icon": "🧑‍🎓",
+    "time": "Sep 2021 - Dec 2021",
+    "company": "University of Victoria",
+    "position": "Teaching Assistant",
+    "description": "Facilitated weekly coding labs to assist 60 students with course materials and boost their academic performance.\nDesigned a Python script to collect grade entries and generate statistical reports for the professor to track student performance.",
+    "color": "bg-primary"
+  }
+]
