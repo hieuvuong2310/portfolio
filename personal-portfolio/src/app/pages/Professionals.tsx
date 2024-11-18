@@ -17,8 +17,8 @@ function Professionals() {
         <div className="text-[100px] font-primary text-primary text-stroke-3 text-stroke-black">Professionals</div>
         <div className="relative py-10">
             <div className="grid grid-cols-9 gap-y-10">
-                <div className="col-span-4 col-start-1 text-center text-[45px]">Professional Career</div>
-                <div className="col-span-4 col-start-6 text-center text-[45px]">Extra Curricular</div>
+                <div className="col-span-4 col-start-1 text-center text-[45px] bg-accent">Professional Career</div>
+                <div className="col-span-4 col-start-6 text-center text-[45px] bg-job">Extra Curricular</div>
                 {timelineData.map((item, index) => (
                     <div
                     key={index}
