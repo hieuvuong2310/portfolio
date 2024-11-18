@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Overview from "./pages/Overview";
 import Projects from "./pages/Projects";
 import Professionals from "./pages/Professionals";
+import Skills from "./pages/Skills";
 export default function Home() {
   return (
     <div className="flex flex-col h-screen">
@@ -14,6 +15,7 @@ export default function Home() {
         <Overview />
         <Projects />
         <Professionals />
+        <Skills />
       </div>
     </div>
   );
