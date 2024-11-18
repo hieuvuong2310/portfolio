@@ -13,7 +13,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: "#2E51DE",
-        accent: "#F9D838"
+        accent: "#F9D838",
+        job: "#FDF0D5"
       },
       fontFamily: {
         primary: ['JandaManateeSolid', 'sans-serif'],
