@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 function Contact() {
     return (
         <div className="pl-10 pr-10 pb-10">
