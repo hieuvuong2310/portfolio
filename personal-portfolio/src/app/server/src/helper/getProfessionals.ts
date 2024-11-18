@@ -9,7 +9,7 @@ interface ProfessionalsProps {
     color: string;
 }
 const getProfessionals = () => {
-    var professionals: ProfessionalsProps[] = [];
+    const professionals: ProfessionalsProps[] = [];
     for (let i = 0; i < professionalsData.length; i++) {
         let professional: ProfessionalsProps = {
             icon: professionalsData[i]?.icon,
