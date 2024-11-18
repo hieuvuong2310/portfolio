@@ -31,33 +31,43 @@ const MenuIcon: React.FC = () => {
                     </div>
                     <ul className="flex flex-col items-center justify-center h-full space-y-4 text-[40px]">
                         <li>
-                            <Link href="/" onClick={closeMenu}>
+                            <Link href="#home" onClick={closeMenu}>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href="/about" onClick={closeMenu}>
-                                About
+                            <Link href="#overview" onClick={closeMenu}>
+                                Overview
                             </Link>
                         </li>
                         <li>
-                            <Link href="/projects" onClick={closeMenu}>
+                            <Link href="#projects" onClick={closeMenu}>
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link href="/contact" onClick={closeMenu}>
+                            <Link href="#professionals" onClick={closeMenu}>
+                                Professionals
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#skills" onClick={closeMenu}>
+                                Skills
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#contact" onClick={closeMenu}>
                                 Contact
                             </Link>
                         </li>
                         <li>
                             <div className='flex justify-center space-x-4'>
-                                <div>
+                                <Link href="https://github.com/hieuvuong2310/" target="_blank">
                                     <Image src={GitHub} width={30} height={30} alt="github"/>
-                                </div>
-                                <div>
+                                </Link>
+                                <Link href="https://www.linkedin.com/in/trong-hieu-vuong-495b54199/" target='_blank'>
                                     <Image src={LinkedIn} width={30} height={30} alt="linkedin"/>
-                                </div>
+                                </Link>
                             </div>
                         </li>
                     </ul>
