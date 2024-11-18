@@ -1,15 +1,19 @@
 "use client";
 import React, { useState } from 'react';
 import getSkills from "../server/src/helper/getSkills";
+import { SkillsType } from '../server/src/helper/getSkills';
 
 function Skills() {
-    const [hoveredLogo, setHoveredLogo] = useState(null);
+    const [hoveredLogo, setHoveredLogo] = useState("");
 
-    const skills = getSkills();
-    const logos = ["python", "java", "groovy", "javascript", 
+    const skills: SkillsType = getSkills();
+    const logos: string[] = ["python", "java", "groovy", "javascript", 
                 "typescript", "swift", "react", "vue", 
                 "docker", "jenkins", "graphql", "restapi", 
                 "firebase", "mongodb", "github", "node"]
+    // function toString(logo: string) {
+    //     return skills[logo].toString();
+    // }
     return (
         <div className='pl-10 pr-10 pb-10'>
             <div className="text-[100px] font-primary text-primary text-stroke-3 text-stroke-black">Skills</div>
@@ -21,7 +25,7 @@ function Skills() {
                                 key={index}
                                 className="relative flex flex-col justify-center items-center"
                                 onMouseEnter={() => setHoveredLogo(logo)}
-                                onMouseLeave={() => setHoveredLogo(null)}
+                                onMouseLeave={() => setHoveredLogo("")}
                                 >
                                 <img src={skills[logo]} width={100} height={100} alt={logo} />
                                 {hoveredLogo === logo && (
