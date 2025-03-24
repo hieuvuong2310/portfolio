@@ -12,7 +12,7 @@ function NavBar() {
                 <Link href="https://github.com/hieuvuong2310/" target="_blank">
                     <Image src={GitHub} width={24} height={24} alt="github"/>
                 </Link>
-                <Link href="https://www.linkedin.com/in/trong-hieu-vuong-495b54199/" target="_blank">
+                <Link href="https://www.linkedin.com/in/lucas-vuong-495b54199/" target="_blank">
                     <Image src={LinkedIn} width={24} height={24} alt="linkedin"/>
                 </Link>
             </div>
