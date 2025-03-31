@@ -11,13 +11,16 @@ interface ProfessionalsProps {
 const getProfessionals = () => {
     const professionals: ProfessionalsProps[] = [];
     for (let i = 0; i < professionalsData.length; i++) {
+        if (Object.keys(professionalsData[i]).length === 0) {
+           continue;
+        }
         const professional: ProfessionalsProps = {
-            icon: professionalsData[i]?.icon,
-            time: professionalsData[i]?.time,
-            company: professionalsData[i]?.company,
-            position: professionalsData[i]?.position,
-            description: professionalsData[i]?.description,
-            color: professionalsData[i]?.color
+            icon: professionalsData[i]?.icon || "",
+            time: professionalsData[i]?.time || "",
+            company: professionalsData[i]?.company || "",
+            position: professionalsData[i]?.position || "",
+            description: professionalsData[i]?.description || "",
+            color: professionalsData[i]?.color || ""
         };
         professionals.push(professional);
     }

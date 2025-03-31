@@ -1,12 +1,21 @@
 [
   {
     "icon": "💼",
-    "time": "Jan 2024 - Present",
+    "time": "Jan 2024 - Dec 2024",
     "company": "SAP",
     "position": "DevOps Engineer Intern",
     "description": "Troubleshot, refactored, and maintained Jenkins pipelines using Groovy, Java, and Shell scripts, improving CI runtime and stability by 30 minutes and reducing flaky tests by 30%, accelerating the merge process and reducing developer downtime.\nIntroduced a new CI check with GitHub Actions, running 200 implemented Python unit tests, lint checking, and ensuring code quality and stability, preventing potential issues from reaching production.\nMonitored deployments, released the latest fixes to 60 groups of customers, and maintained automated sanity tests in TypeScript for weekly releases to ensure smoother releases and increase customer satisfaction.\nInitiated a proof of concept for Jelly integration with Jenkins to build a customized user interface, adding a feedback form on Jenkins to collect input from 1500+ engineers on build pipeline quality and save to SAP Hana Cloud.",
     "color": "bg-accent"
   },
+  {
+    "icon": "🧑‍🎓",
+    "time": "Jan 2025 - April 2025",
+    "company": "University of Victoria",
+    "position": "Teaching Assistant",
+    "description": "Facilitated weekly coding labs to assist 60 students with course materials and boost their academic performance.\nDesigned a Python script to collect grade entries and generate statistical reports for the professor to track student performance.",
+    "color": "bg-primary"
+  },
+  {},
   {
     "icon": "🧑‍🎓",
     "time": "Nov 2024",
