@@ -1,5 +1,21 @@
 [
   {
+    "icon": "🧑‍🎓",
+    "time": "September 2025",
+    "company": "Hack the North",
+    "position": "Winner – YC Prize & Federato Sponsor Prize",
+    "description": "Led product, AI system design, and pitching for Optimate, an underwriting co-pilot that blends RAG explainability with reinforcement learning. Recognized by Y Combinator and Federato judges for marrying AI insights with underwriter workflows.",
+    "color": "bg-job"
+  },
+  {
+    "icon": "🧑‍🎓",
+    "time": "March 2024",
+    "company": "StormHacks",
+    "position": "Entrepreneurship Prize Winner",
+    "description": "Built a market-ready prototype and business case within 24 hours, focusing on revenue pathways and go-to-market storytelling that aligned with StormHacks' entrepreneurship track.",
+    "color": "bg-job"
+  },
+  {
     "icon": "💼",
     "time": "Jan 2024 - Dec 2024",
     "company": "SAP",
@@ -47,14 +63,6 @@
     "position": "Software Engineer Intern",
     "description": "Translated over 400 user actions into end-to-end (E2E) tests using Java, Appium, and Selenium, increasing early risk detection by 50% and ensuring app performance and stability for over 1000 user testing accounts.\nAutomated test runs, saving 45 hours of engineering time per week previously spent on manual testing.\nUsed regular expressions (Regex) to validate data formats on web and mobile interfaces during test runs.",
     "color": "bg-accent"
-  },
-  {
-    "icon": "🧑‍🎓",
-    "time": "March 2023",
-    "company": "Treasure Hack",
-    "position": "Hackathon Participant",
-    "description": "Worked in a team of 4 to develop a website that allows users to upload documents and receive summaries or engage in 1-on-1 chats with an AI. Implemented the AI feature using HTML, CSS, JavaScript, and integrated with the OpenAI API.",
-    "color": "bg-job"
   },
   {
     "icon": "💼",

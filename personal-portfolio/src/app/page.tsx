@@ -1,36 +1,33 @@
-import HomePage from "./pages/HomePage";
-import NavBar from "./components/NavBar";
-import Overview from "./pages/Overview";
-import Projects from "./pages/Projects";
-import Professionals from "./pages/Professionals";
-import Skills from "./pages/Skills";
-import Contact from "./pages/Contact";
+"use client";
+
+import { useState } from "react";
+import Navigation from "./components/navigation";
+import Hero from "./components/hero";
+import Overview from "./components/overview";
+import Projects from "./components/projects";
+import Experience from "./components/experience";
+import Skills from "./components/skills";
+import Contact from "./components/contacts";
+import Footer from "./components/footer";
+
 export default function Home() {
+  const [activeSection, setActiveSection] = useState("home");
+
   return (
-    <div className="flex flex-col h-screen">
-      <div className="fixed top-0 left-0 w-full z-50 p-5">
-        <NavBar />
-      </div>
-      <div className="flex-grow mt-[5px]">
-        <div id="home">
-          <HomePage />
-        </div>
-        <div id="overview">
-          <Overview />
-        </div>
-        <div id="projects">
-          <Projects />
-        </div>
-        <div id="professionals">
-          <Professionals />
-        </div>
-        <div id="skills">
-          <Skills />
-        </div>
-        <div id="contact">
-          <Contact />
-        </div>
-      </div>
+    <div className="min-h-screen bg-background text-foreground">
+      <Navigation
+        activeSection={activeSection}
+        setActiveSection={setActiveSection}
+      />
+      <main>
+        <Hero />
+        <Overview />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 }

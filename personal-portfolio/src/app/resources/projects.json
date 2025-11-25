@@ -1,9 +1,27 @@
 [
   {
-    "projectName": "Financial App",
-    "projectLink": "https://github.com/hieuvuong2310/finance_app",
-    "description": "A financial app that allows users to track their expenses and incomes. Users can add, edit, and delete transactions. The app also provides a summary of the user's financial status. I led the frontend and did basic backend",
-    "image": "https://firebasestorage.googleapis.com/v0/b/personal-web-4022f.firebasestorage.app/o/finance.png?alt=media&token=9a05077c-e1be-483d-a22e-c19ca3be858e",
+    "projectName": "Optimate",
+    "projectLink": "https://github.com/hieuvuong2310/Optimate",
+    "description": "Winner of YC Unicorn and Federato RiskOps at Hack the North 2025. An AI-powered underwriting dashboard that transforms raw insurance policy data into actionable insights using CohereAI, RAG, and reinforcement learning. Features include top matches, explainability, approve/decline actions, and contextual AI chatbot for smarter underwriting decisions.",
+    "image": "https://ohchgffptkoxodlxxmte.supabase.co/storage/v1/object/public/portfolio/Optimate.png",
+    "techstacks": [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "shadcn/ui",
+      "CohereAI",
+      "AWS DynamoDB",
+      "Auth0",
+      "Recharts",
+      "D3.js",
+      "Python"
+    ]
+  },
+  {
+    "projectName": "LockedIn",
+    "projectLink": "https://github.com/hieuvuong2310/lockedin",
+    "description": "A productivity and engagement platform designed to help users stay focused and achieve their goals. Features innovative design and functionality to enhance user engagement and provide seamless experiences with high retention rates.",
+    "image": "https://ohchgffptkoxodlxxmte.supabase.co/storage/v1/object/public/portfolio/LockedIn.png",
     "techstacks": [
       "React.js",
       "Node.js",
@@ -15,17 +33,52 @@
     ]
   },
   {
-    "projectName": "LeapCode",
-    "projectLink": "https://github.com/hieuvuong2310/hack-camp-2024",
-    "description": "Arcade game that tracks your head to move the computer science student to dodge obstacles for productive breaks because most students spend over 90% of their day sitting down. We built a solution to help students take an active break to ensure they're physically engaged.",
-    "image": "https://firebasestorage.googleapis.com/v0/b/personal-web-4022f.firebasestorage.app/o/leapcode.png?alt=media&token=75404a0f-d97f-40ad-a68c-f8b4ad9304c2",
-    "techstacks": ["Next.js", "React,js", "PostgreSQL", "TensorFlow"]
+    "projectName": "SolarSight",
+    "projectLink": "https://github.com/hieuvuong2310/solarsight",
+    "description": "A solar battery charger system designed for 12V batteries, offering efficient charging and maintenance using solar energy. Includes a charge controller to regulate voltage, ensuring safe and optimal charging of batteries with real-time monitoring capabilities.",
+    "image": "https://ohchgffptkoxodlxxmte.supabase.co/storage/v1/object/public/portfolio/SolarSight.png",
+    "techstacks": [
+      "Python",
+      "Arduino",
+      "IoT",
+      "Hardware Integration",
+      "Data Visualization"
+    ]
+  },
+  {
+    "projectName": "Codify",
+    "projectLink": "https://github.com/hieuvuong2310/codify",
+    "description": "An accessible web design tool developed to assist individuals with upper limb mobility limitations in software design and development. Features a 9-key T9 predictive keyboard and joystick-based mouse, integrated into a custom HTML-based drag-and-drop website builder for inclusive design.",
+    "image": "https://ohchgffptkoxodlxxmte.supabase.co/storage/v1/object/public/portfolio/Codify.png",
+    "techstacks": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Accessibility",
+      "Assistive Technology",
+      "T9 Keyboard"
+    ]
+  },
+  {
+    "projectName": "Financial App",
+    "projectLink": "https://github.com/hieuvuong2310/finance_app",
+    "description": "A financial app that allows users to track their expenses and incomes. Users can add, edit, and delete transactions. The app also provides a summary of the user's financial status. I led the frontend and did basic backend",
+    "image": "https://ohchgffptkoxodlxxmte.supabase.co/storage/v1/object/public/portfolio/Finance.png",
+    "techstacks": [
+      "React.js",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Docker",
+      "MaterialUI",
+      "Firebase"
+    ]
   },
   {
     "projectName": "What to eat?",
     "projectLink": "https://github.com/hieuvuong2310/WWDC2023",
     "description": "The iOS app lets users explore different regions of Vietnam and learn about the signature dishes in each area.",
-    "image": "https://firebasestorage.googleapis.com/v0/b/personal-web-4022f.firebasestorage.app/o/whatToEat.png?alt=media&token=88bc7563-b1d0-4c43-8cae-40c50e0f6185",
+    "image": "https://ohchgffptkoxodlxxmte.supabase.co/storage/v1/object/public/portfolio/WWDC.png",
     "techstacks": ["Swift", "SwiftUI", "AVIFoundation"]
   }
 ]

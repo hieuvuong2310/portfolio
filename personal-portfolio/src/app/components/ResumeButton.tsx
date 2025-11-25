@@ -1,22 +1,26 @@
-import Download from "../img/download.png"
+import Download from "../img/download.png";
 import Image from "next/image";
 import Link from "next/link";
+import { CONTACT_INFO } from "../constants/config";
+
 function ResumeButton() {
   return (
-        <button className="w-[20%] h-[4%] bg-accent rounded-[20px]">
-            <Link href="https://firebasestorage.googleapis.com/v0/b/personal-web-4022f.firebasestorage.app/o/Resume_LucasVuong.pdf?alt=media&token=929135d7-f71b-4cc4-9d4c-fcdfe1015c6a" target="_blank">
-                <div className="flex flex-col items-center justify-center">
-                    <div className="flex pl-10 pr-10 items-center">
-                        <div className="pr-2">
-                            <Image src={Download} width={24} height={24} alt="download"/>
-                        </div>
-                        <div className="text-[20px] tracking-widest">
-                            Resume
-                        </div>
-                    </div>
-                </div>
-            </Link>
-        </button>
+    <Link
+      href={CONTACT_INFO.resume}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-accent hover:bg-accent/90 text-black font-accent text-lg tracking-wider rounded-full transition-all duration-200 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
+      aria-label="Download resume PDF"
+    >
+      <Image 
+        src={Download} 
+        width={24} 
+        height={24} 
+        alt="Download icon" 
+        className="w-6 h-6"
+      />
+      <span>Resume</span>
+    </Link>
   );
 }
 
