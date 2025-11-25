@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import type { PluginAPI } from "tailwindcss/types/config";
+import plugin from "tailwindcss/plugin";
 
 export default {
   content: [
@@ -32,7 +32,7 @@ export default {
     },
   },
   plugins: [
-    function ({ addUtilities }: PluginAPI) {
+    plugin(function ({ addUtilities }) {
       addUtilities({
         '.text-stroke': {
           '-webkit-text-stroke-width': '1px',
@@ -54,6 +54,6 @@ export default {
           '-webkit-text-stroke-color': '#fff',
         },
       });
-    },
+    }),
   ],
 } satisfies Config;
