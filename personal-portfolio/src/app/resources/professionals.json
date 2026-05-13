@@ -17,6 +17,14 @@
   },
   {
     "icon": "💼",
+    "time": "Jan 2026 - Apr 2026",
+    "company": "Shopify",
+    "position": "Software Engineer Intern",
+    "description": "",
+    "color": "bg-accent"
+  },
+  {
+    "icon": "💼",
     "time": "Jan 2024 - Dec 2024",
     "company": "SAP",
     "position": "DevOps Engineer Intern",
