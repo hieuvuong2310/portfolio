@@ -12,7 +12,7 @@ export const CONTACT_INFO = {
   phoneRaw: "2508806181",
   github: "https://github.com/hieuvuong2310/",
   linkedin: "https://www.linkedin.com/in/lucas-vuong-495b54199/",
-  resume: "https://ohchgffptkoxodlxxmte.supabase.co/storage/v1/object/public/portfolio/Trong%20Hieu%20Vuong.pdf",
+  resume: "https://ohchgffptkoxodlxxmte.supabase.co/storage/v1/object/public/portfolio/Lucas-NG-Summer2026.pdf",
 } as const;
 
 export const NAVIGATION = [
